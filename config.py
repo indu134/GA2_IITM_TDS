@@ -4,35 +4,40 @@
 # ==========================================
 
 # 1. Your IITM Email
-EMAIL = "your_email@example.com"
+EMAIL = "21f3000478@ds.study.iitm.ac.in"
 
 # 2. Q1: CORS Allowed Origin
-Q1_ALLOWED_ORIGIN = "https://app-xxxxxx.example.com"
+Q1_ALLOWED_ORIGIN = "https://dash-e9bbe3.example.com"
 
 # 3. Q2: OAuth JWKS (Issuer, Audience, and Public Key)
 ISSUER = "https://idp.exam.local"
-AUDIENCE = "..."
+AUDIENCE = "tds-6gnivz3r.apps.exam.local"
 PUBLIC_KEY_PEM = """-----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2okOHspNjgA+2rTLbeuY
-... (Paste your full key here) ...
+cxiP/hG8C6Sb9iwg3yiLAA4HCnpITcbWCSelbvbYGuc3EbNy4xFyf5Cbj5DHJMID
+EkryOgyd2giIIIBOUBj8S63uGcnRpOBh9NFatfNwheKuzsPuVNldu6A9cNteNpXc
+WyJjG2axVfmq7i6SuKr1JoWYG7xTTAvKPujSl4OtsQfO3h5NepzdfXpr28oNnzfW
+ed+zclR6BcmNNo/WVfJ4xyCLSf0BCOgdTgW6PdaChd1l9VDetJZVEgC5tkyvXsfI
+SI6iyrYbKR0NEBSqq4XkadEjsCs4F1RncsS4LlgniT7GlkL9Mce3b0wGLs9/7ZIX
+dQIDAQAB
 -----END PUBLIC KEY-----"""
 
 # 4. Q3: 12-Factor Config (Manually merge the variables)
-Q3_PORT = 8000
+Q3_PORT = 8102
 Q3_WORKERS = 1
-Q3_DEBUG = False
+Q3_DEBUG = "true"
 Q3_LOG_LEVEL = "info"
 
 # 5. Q5: Analytics (Find the API key in the Q5 instruction tab)
-Q5_API_KEY = "ak_..."
+Q5_API_KEY = "ak_pl91pckbxlume9ij6yutp0j3"
 
 # 6. Q9: Idempotency & Rate Limit (Find total orders and rate limit)
-Q9_TOTAL_ORDERS = 50
-Q9_RATE_LIMIT = 15
+Q9_TOTAL_ORDERS = 59
+Q9_RATE_LIMIT = 20
 
 # 7. Q10: Middleware Rate Limit (Find allowed origin and rate limit)
-Q10_ALLOWED_ORIGIN = "https://app-xxxxxx.example.com"
-Q10_RATE_LIMIT = 8
+Q10_ALLOWED_ORIGIN = "https://app-g9mcnx.example.com"
+Q10_RATE_LIMIT = 14
 
 # ==========================================
 # FIXED VARIABLES (Do not change these)
